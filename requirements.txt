@@ -22,7 +22,7 @@ cssselect2==0.7.0
     # via svglib
 dj-database-url==2.3.0
     # via -r requirements.in
-django==5.1.3
+django==4.2.16
     # via
     #   -r requirements.in
     #   dj-database-url
@@ -80,7 +80,15 @@ djangocms-admin-style==3.3.1
     # via
     #   -r requirements.in
     #   django-cms
-djangocms-alias==2.0.1
+# djangocms-alias==2.0.1
+https://github.com/django-cms/djangocms-alias/tarball/master#egg=djangocms-alias
+https://github.com/django-cms/djangocms-moderation/tarball/master#egg=djangocms-moderation
+https://github.com/django-cms/djangocms-snippet/tarball/master#egg=djangocms-snippet
+https://github.com/FreemanPancake/djangocms-pageadmin/tarball/feature/djangocms4x-compat#egg=djangocms-pageadmin
+https://github.com/FreemanPancake/djangocms-version-locking/tarball/feature/djangocms4x-compat#egg=djangocms-version-locking
+https://github.com/django-cms/django-filer/tarball/3.3.0#egg=django-filer
+https://github.com/joshyu/djangocms-versioning-filer/tarball/bugfix/django-filer-compatible#egg=djangocms-versioning-filer
+djangocms-picture
     # via -r requirements.in
 djangocms-attributes-field==3.0.0
     # via djangocms-frontend

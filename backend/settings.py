@@ -47,14 +47,21 @@ INSTALLED_APPS = [
     'sekizai',
 
     # Django Filer - optional, but used in most projects
-    'filer',
     'easy_thumbnails',
+    'djangocms_versioning_filer',
+    'filer',
+    'djangocms_versioning_filer.plugins.picture',
+    'djangocms_picture',
 
     # the default publishing implementation - optional, but used in most projects
     'djangocms_versioning',
 
     # the default alias content - optional, but used in most projects
     'djangocms_alias',
+    'djangocms_moderation',
+    'djangocms_snippet',
+    'djangocms_pageadmin',
+    'djangocms_version_locking',
     'parler',
 
     # the next-gen text editor - optional, but used in most projects
@@ -227,3 +234,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 CMS_CONFIRM_VERSION4 = True
 DJANGOCMS_VERSIONING_ALLOW_DELETING_VERSIONS = True
+EMAIL_NOTIFICATION_FAIL_SILENTLY=True

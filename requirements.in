@@ -15,6 +15,13 @@ easy-thumbnails
 django-cms>=4.1.0
 djangocms-versioning>=2.0.0
 djangocms-alias>=2.0.0
+djangocms-moderation
+djangocms-snippet
+djangocms-pageadmin
+djangocms-version-locking
+djangocms-versioning-filer
+djangocms-picture
+
 
 # optional, but used in most projects
 djangocms-admin-style>=3.2.2

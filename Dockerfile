@@ -4,6 +4,9 @@ WORKDIR /app
 
 RUN python -m pip install --upgrade pip
 
+# RUN apt-get update \
+#     apt-get install postgresql
+
 # optimizing the docker caching behaviour
 COPY requirements.txt .
 RUN python -m pip install --no-cache-dir -r requirements.txt
